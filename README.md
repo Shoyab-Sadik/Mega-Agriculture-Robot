@@ -1,5 +1,8 @@
 # 👨‍💻 Author
 M. Shoyab Sadik  
+[LinkedIn](https://www.linkedin.com/in/shoyab-sadik/)  
+[Website](https://shoyab-sadik.github.io/)  
+[WhatsApp](https://wa.me/8801575317604)  
 Pico Robotics
 
 # Mega Agriculture Robot 🌱🤖
