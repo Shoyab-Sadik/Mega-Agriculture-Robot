@@ -3,51 +3,91 @@ M. Shoyab Sadik
 [LinkedIn](https://www.linkedin.com/in/shoyab-sadik/)  
 [Website](https://shoyab-sadik.github.io/)  
 [WhatsApp](https://wa.me/8801575317604)  
-Pico Robotics
+Pico Robotics 🚀  
+
+---
 
 # Mega Agriculture Robot 🌱🤖
 
-A smart agriculture robot developed using Arduino and sensors.
+A smart agriculture robot developed using Arduino for automation in farming tasks like irrigation, monitoring, and seed planting.
+
+---
 
 ## 🚀 Features
-- Soil moisture detection 🌱
-- Automatic water pump 💧
-- Temperature & humidity monitoring 🌡️
-- Bluetooth control (HC-05) 📱
-- Obstacle detection 🚧
-- Solar power monitoring ☀️
+- 🌱 Soil moisture detection  
+- 💧 Manual & automatic water pump control  
+- 🌡️ Temperature & humidity monitoring (DHT11)  
+- 📱 Bluetooth control (HC-05)  
+- 🤖 Robot movement control (Forward, Backward, Left, Right)  
+- 🔄 Automatic seed planting mechanism (servo)  
+- 🚨 Obstacle detection with buzzer alert (scarecrow system)  
+- 📟 Real-time data display on LCD  
 
-## 🧰 Components
-- Arduino
-- DHT11
-- Soil Sensor
-- Ultrasonic Sensor
-- Servo Motor
-- HC-05
-- LCD (I2C)
-- Pump & Buzzer
+---
 
 ## 📋 Control Commands
 | Command | Action |
-|---------|-------|
-| F       | Move Forward |
-| B       | Move Backward |
-| L       | Turn Left |
-| R       | Turn Right |
-| S       | Stop All |
-| s       | Continuous Servo |
-| A       | Automatic Seed Planter Mode |
-| P       | Pump ON |
-| O       | Pump OFF |
+|---------|--------|
+| F | Move Forward |
+| B | Move Backward |
+| L | Turn Left |
+| R | Turn Right |
+| S | Stop All |
+| s | Continuous Servo Movement |
+| A | Automatic Seed Planter Mode |
+| P | Pump ON |
+| O | Pump OFF |
+
+---
+
+## 📱 Mobile App
+- App Name: Custom Bluetooth Controller  
+- Platform: Android (MIT App Inventor)  
+
+### 🔧 Functionality
+- Send control commands via Bluetooth  
+- Control robot movement  
+- Turn pump ON/OFF  
+- Activate auto/servo modes  
+- View real-time sensor data (Temp, Humidity, Soil)  
+
+---
+
+## 🧰 Components Used
+- Arduino (Uno/Nano)  
+- DHT11 Sensor  
+- Soil Moisture Sensor  
+- Ultrasonic Sensor (HC-SR04)  
+- Servo Motor (SG90)  
+- HC-05 Bluetooth Module  
+- LCD 16x2 (I2C)  
+- Motor Driver (L298N)  
+- DC Motors & Wheels  
+- Water Pump  
+- Buzzer  
+
+---
+
+## 🛒 Shopping List (Pico Robotics)
+
+🔗 **Order from:** https://picorobotics.shop/  
+📱 **WhatsApp Order:** https://wa.me/8801977662117  
+
 
 ## ⚙️ Working Principle
-1. Soil sensor monitors moisture and triggers pump or buzzer if dry.  
-2. DHT11 monitors temperature & humidity, displayed on LCD and via Bluetooth.  
-3. Servo moves for planting in automatic mode or continuous mode.  
-4. Ultrasonic sensor detects obstacles and activates buzzer.  
-5. Bluetooth commands control robot manually.  
+1. Soil sensor monitors moisture level and triggers alert or pump.  
+2. DHT11 reads temperature & humidity and displays on LCD.  
+3. Bluetooth app sends commands to control the robot.  
+4. Servo performs seed planting action.  
+5. Ultrasonic sensor detects obstacles and activates buzzer (scarecrow effect).  
+6. Auto mode runs robot and planting process automatically.  
+
+---
 
 ## 🌟 Future Improvements
-- Add solar battery level display  
-- Add mobile app UI for live monitoring  
-- Integrate camera for crop monitoring  
+- ☀️ Solar system integration  
+- 🌐 IoT (Firebase/Blynk control)  
+- 📊 Data logging system  
+- 🤖 AI-based navigation  
+
+---
