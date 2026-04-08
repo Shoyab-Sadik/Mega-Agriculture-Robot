@@ -1,3 +1,7 @@
+# 👨‍💻 Author
+M. Shoyab Sadik  
+Pico Robotics
+
 # Mega Agriculture Robot 🌱🤖
 
 A smart agriculture robot developed using Arduino and sensors.
@@ -20,6 +24,27 @@ A smart agriculture robot developed using Arduino and sensors.
 - LCD (I2C)
 - Pump & Buzzer
 
-## 👨‍💻 Author
-M. Shoyab Sadik  
-Pico Robotics
+## 📋 Control Commands
+| Command | Action |
+|---------|-------|
+| F       | Move Forward |
+| B       | Move Backward |
+| L       | Turn Left |
+| R       | Turn Right |
+| S       | Stop All |
+| s       | Continuous Servo |
+| A       | Automatic Seed Planter Mode |
+| P       | Pump ON |
+| O       | Pump OFF |
+
+## ⚙️ Working Principle
+1. Soil sensor monitors moisture and triggers pump or buzzer if dry.  
+2. DHT11 monitors temperature & humidity, displayed on LCD and via Bluetooth.  
+3. Servo moves for planting in automatic mode or continuous mode.  
+4. Ultrasonic sensor detects obstacles and activates buzzer.  
+5. Bluetooth commands control robot manually.  
+
+## 🌟 Future Improvements
+- Add solar battery level display  
+- Add mobile app UI for live monitoring  
+- Integrate camera for crop monitoring  
