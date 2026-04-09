@@ -41,7 +41,7 @@ A smart agriculture robot developed using Arduino for automation in farming task
 ---
 
 ## 📱 Mobile App
-- App Name: Custom Bluetooth Controller  
+- App Name: Smart Agriculture Robot  
 - Platform: Android (MIT App Inventor)  
 
 ### 🔧 Functionality
